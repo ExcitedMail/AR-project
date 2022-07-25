@@ -1,0 +1,8 @@
+prefix=/home/brian/catkin_ws/devel
+
+Name: IRL_SLAM
+Description: Description of IRL_SLAM
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/brian/catkin_ws/devel
+
+Name: orb_object_slam
+Description: Description of orb_object_slam
+Version: 0.0.0
+Cflags: -I/home/brian/catkin_ws/src/cube_slam/orb_object_slam/include
+Libs: -L${prefix}/lib -lorb_object_slam
+Requires: cmake_modules roscpp nav_msgs sensor_msgs message_filters image_transport cv_bridge pcl_ros pcl_conversions detect_3d_cuboid tictoc_profiler

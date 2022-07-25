@@ -1,0 +1,2 @@
+IRL_SLAM:cube_slam/dependency/tictoc_profiler:cube_slam/detect_3d_cuboid:cube_slam/line_lbd:cube_slam/object_slam:cube_slam/orb_object_slam:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:vision_opencv/cv_bridge:vision_opencv/image_geometry:vision_opencv/opencv_tests:vision_opencv/vision_opencv
+-DCATKIN_DEVEL_PREFIX=/home/brian/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/brian/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/brian/catkin_ws/devel
+
+Name: object_slam
+Description: Description of object_slam
+Version: 0.0.0
+Cflags: -I/home/brian/catkin_ws/src/cube_slam/object_slam/include
+Libs: -L${prefix}/lib 
+Requires: cmake_modules roscpp cv_bridge detect_3d_cuboid line_lbd

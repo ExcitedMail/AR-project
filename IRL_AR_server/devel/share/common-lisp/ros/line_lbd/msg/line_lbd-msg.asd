@@ -1,0 +1,28 @@
+
+(cl:in-package :asdf)
+
+(defsystem "line_lbd-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :sensor_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Keyline" :depends-on ("_package_Keyline"))
+    (:file "_package_Keyline" :depends-on ("_package"))
+    (:file "Keyline_vec" :depends-on ("_package_Keyline_vec"))
+    (:file "_package_Keyline_vec" :depends-on ("_package"))
+    (:file "My_image" :depends-on ("_package_My_image"))
+    (:file "_package_My_image" :depends-on ("_package"))
+    (:file "anchor_objects" :depends-on ("_package_anchor_objects"))
+    (:file "_package_anchor_objects" :depends-on ("_package"))
+    (:file "anchor_pose" :depends-on ("_package_anchor_pose"))
+    (:file "_package_anchor_pose" :depends-on ("_package"))
+    (:file "combined_boxes" :depends-on ("_package_combined_boxes"))
+    (:file "_package_combined_boxes" :depends-on ("_package"))
+    (:file "final_pose" :depends-on ("_package_final_pose"))
+    (:file "_package_final_pose" :depends-on ("_package"))
+    (:file "my_mat" :depends-on ("_package_my_mat"))
+    (:file "_package_my_mat" :depends-on ("_package"))
+    (:file "my_pose" :depends-on ("_package_my_pose"))
+    (:file "_package_my_pose" :depends-on ("_package"))
+    (:file "updateServer" :depends-on ("_package_updateServer"))
+    (:file "_package_updateServer" :depends-on ("_package"))
+  ))
